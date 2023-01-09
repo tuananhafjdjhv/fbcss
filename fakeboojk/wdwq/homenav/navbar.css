@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    color: #27369d;
+    font-size: 60px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns:40% 30%;
+    grid-column-gap: 10px;
+    background: #ffffff;
+    position: absolute;
+}
+.fromLogin{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+
+}
+
+.faceLogo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 200px;
+}
+#vanban{
+padding: 0;
+    margin-top: -200px;
+}
+.fromLogin1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background: white;
+    margin: 256px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 2px #888888;
+    border-radius: 10px;
+
+}
+
+.fromLogin1 input {
+    width: 365px;
+    height: 50px;
+    margin-bottom: 22px;
+    margin-left: 20px;
+    background: white;
+border-radius: 10px;
+    border: solid 0.3px #9aabab;
+
+}
+
+#login-btn {
+    height: 48px;
+    width: 350px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+#creatAcc-btn {
+    height: 48px;
+    width: 176px;
+    text-align: center;
+    margin: 25px 100px;
+    background: #68af68;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.btnAcc {
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 22px;
+    margin-left: 20px;
+}
+
+#creatAcc-btn {
+
+}
+.register{
+    position: relative;
+    margin:  200px auto;
+    overflow: auto;
+    width: 480px;
+    height: 607px;
+    top: 80%;
+    border: 2px;
+    border-bottom-color: rgba(0,0,0,0.05);
+    background-color: white;
+
+}
+.input{
+    flex-direction: column;
+    display: flex;
+    margin-left: 18px;
+}
+.register .button{
+    text-align: center;
+}
+#dangkibtn{
+    width: 193px;
+    height: 30px;
+    border-radius: 5px;
+}
+.document{
+    font-size: 10px;
+}
+.surname, .name{
+    width: 194px;
+    height: 40px;
+
+}
+.input input{
+    border-radius: 5px;
+}
+.phone,.password{
+    width: 400px;
+    height: 40px;
+}
+.login,.date,.sex,.document{
+    margin-left: 18px;
+}
+.inputSdtMk,.phone,.password{
+    margin-top: 10px;
+}
+.hoten{
+    margin-top: 10px;
+
+}
+.sex label{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.date{
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.sex{
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.name{
+    margin-left: 10px;
+}
+.button #dangkibtn:hover{
+    background-color: #7676b9;
+}
+.animate{
+    animation: zoom 0.6s;
+}
+@keyframes zoom {
+    from{transform: scale(0);}
+    to  {transform:scale(1);}
+}
+.hide{
+    display: none;
+}
